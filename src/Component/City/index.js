@@ -33,7 +33,7 @@ const City = ({ cityName , setCityName, fetchCityWeather }) => {
                     <p className="text-danger">{error}</p>
                 </Form.Group>
 
-                <Button variant="primary" type="submit" onClick={handleClick}>
+                <Button variant="primary" onClick={handleClick}>
                     Submit
                 </Button>
             </Form>
