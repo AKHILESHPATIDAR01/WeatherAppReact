@@ -1,9 +1,9 @@
 import React from 'react';
 
-const CityWeather = () => {
+const CityWeather = (cityWeather) => {
     return (
         <div>
-            
+            <h1>{cityWeather.wind}</h1>
         </div>
     );
 };
