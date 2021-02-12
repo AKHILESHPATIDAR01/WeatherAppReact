@@ -1,9 +1,16 @@
 import React from 'react';
 
-const CityWeather = (cityWeather) => {
+const CityWeather = (weather) => {
+    // console.log(weather);
+    // console.log(weather.weather.name);
+
+    // const {data} = cityWeather;
     return (
         <div>
-            <h1>{cityWeather.wind}</h1>
+            <div>
+                <div> City Name =  {weather.weather.name} </div>
+                Wind Speed = {weather.weather.wind.speed} 
+            </div>
         </div>
     );
 };
