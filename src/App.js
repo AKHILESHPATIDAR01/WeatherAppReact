@@ -30,7 +30,7 @@ function App() {
   return (
     <>
         <City cityName={cityName} setCityName={setCityName} fetchCityWeather={fetchCityWeather} />
-        
+        <p>AKHILESH PATIDAR</p>
         {
 
           cityWeather.data != undefined ?
